@@ -38,6 +38,7 @@ const Row = ({ title, id, fetchUrl }) => {
   return (
     <Container>
       <h2>{title}</h2>
+
       <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -97,7 +98,8 @@ const Wrap = styled.div`
   height: 95%;
   padding-top: 56.25%;
   border-radius: 10px;
-  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, 
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
   cursor: pointer;
   overflow: hidden;
   position: relative;
