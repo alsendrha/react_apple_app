@@ -48,6 +48,7 @@ const SearchPage = () => {
                     alt="movie"
                     className="movie_poster"
                   />
+                  <h1>{movie.title}</h1>
                 </div>
               </div>
             )
